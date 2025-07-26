@@ -107,4 +107,85 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
   }
   
+  /* Plants Section */
+  .plants .section-title {
+    color: #000;
+    font-weight: 700;
+  }
+  .plants .section-title span{
+    color: #e03e2f;
+  }
+
+
+/* add effect  */
+.line-effect {
+    display: block;
+    /* width: 140px;
+    height: 1px;
+    background: transparent; */
+    position: relative;
+    margin: auto;
+}
+.plants:hover .line-effect::before{
+    content: '';
+    height: 2px;
+    width: 50px;
+    right: 50%;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    background: #e59205;
+    transition: .4s all ease-in-out;
+    z-index: -1;
+}
+
+  .plants .plant-p {
+    width: 60%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+  }
+
+  .cards{
+    margin-top: 20px;
+  }
+
+  /* add effect  */
+  /* .cards:hover .var-effect::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 2px;
+    height: 20%;
+    background-color: rgba(213, 41, 41, 0.8);
+    z-index: -1;
+    border-radius: 10px;
+  } */
+
+  .cards .btn{
+    width: 100%;
+    background: #E95A08;
+    border-radius: 0 !important;
+  }
+  .cards .btn:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+    color: #000000;
+  }
+  
+  .plant-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .plant-card img:hover {
+    transform: scale(1.05);
+  }
+  
+
   
