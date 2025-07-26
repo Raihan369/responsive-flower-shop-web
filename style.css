@@ -1,3 +1,4 @@
+/* Abdur rahman */
 /* General */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,4 +57,54 @@ body {
     border-radius: 12px;
     font-weight: bold;
   }
+
+  /* Banner section */
+
+  .banner {
+    /* background: #e6f2e6; */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 2rem;
+  }
+
+  /* add effect  */
+  .banner-text {
+    margin-bottom: -137px !important;
+  }
+  .var-effect {
+    position: relative;
+    padding-left: 20px; 
+  }
+  .banner:hover .var-effect::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 2px;
+    height: 20%;
+    background-color: rgba(213, 41, 41, 0.8);
+    z-index: -1;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    color: #000;
+    font-weight: 700;
+  }
+
+  .banner .banner-text h1 span{
+    color: #E95A08 !important;
+  }
+  
+  .banner-text p {
+    font-size: 1.25rem;
+    color: #000000;
+  }
+  
+  .banner-image img {
+    /* max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  }
+  
   
